@@ -184,7 +184,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 533854102}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 1, z: -212}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -217,13 +217,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c602ab5c4b392484abc94a90fd9cade6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  universeRadius: 20
-  sunPrefab: {fileID: 1590153061185066, guid: 9acf70f502af34fa8bd081ccc7351a95, type: 2}
+  universeRadius: 100
+  sunPrefab: {fileID: 1428411699944864, guid: 10e14d8b86c1a41289a2612e550d3f96, type: 2}
   sunPosition: {x: 0, y: 0, z: 0}
-  moonPrefab: {fileID: 1590153061185066, guid: 9acf70f502af34fa8bd081ccc7351a95, type: 2}
+  moonPrefab: {fileID: 1835840026013772, guid: 9acf70f502af34fa8bd081ccc7351a95, type: 2}
   minMoonMovementSpeed: 10
   maxMoonMovementSpeed: 20
-  starPrefab: {fileID: 1590153061185066, guid: 9acf70f502af34fa8bd081ccc7351a95, type: 2}
+  starPrefab: {fileID: 1583172382169466, guid: 89ad17f72ff944aad8411070db02ed72, type: 2}
   minStarsize: 1
   maxStarsize: 2
   starsAmount: 3333
@@ -231,10 +231,10 @@ MonoBehaviour:
   maxTwinkleFrequency: 73.6
   elipseSegments: 1
   elipseWidth: 2
-  orbitalElipsePrefab: {fileID: 1590153061185066, guid: 9acf70f502af34fa8bd081ccc7351a95,
+  orbitalElipsePrefab: {fileID: 1716722768600826, guid: b964a27880e684585b30be71ea7445af,
     type: 2}
   planets:
-  - planetPrefab: {fileID: 1590153061185066, guid: 9acf70f502af34fa8bd081ccc7351a95,
+  - planetPrefab: {fileID: 1653230248489030, guid: d247fe5044fd4462083843a2491829e6,
       type: 2}
     orbit:
       xExtent: 0
